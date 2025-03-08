@@ -77,9 +77,7 @@ const renderAllPostsData = (data) => {
       cardPost.className = "card-post";
       cardPost.innerHTML = `
       <p>${post?.name}</p>
-      <div class="image">
-        <img src="${post?.urlImg}" alt="${post?.title}">
-      </div>
+      ${post?.urlImg ? `<div class="image"><img src="${post.urlImg}"></div>` : ""}
       <div class="content">
         <h3>${post?.title}</h3>
         <p>${post?.description}</p>

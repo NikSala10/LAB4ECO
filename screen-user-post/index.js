@@ -161,7 +161,7 @@ async function fetchDataCreatePost() {
         name: currentUserName,
         title: titleInput.value,
         description: descriptionInput.value,
-        urlImg: urlImgPostInput.value,
+        urlImg: urlImgPostInput.value || "",
       }),
     };
 

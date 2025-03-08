@@ -12,5 +12,47 @@
     "urlImg": "https://images.pexels.com/photos/556669/pexels-photo-556669.jpeg?auto=compress&cs=tinysrgb&w=600",
     "title": "Una tarde",
     "description": "Tarde bonisssssssssssss"
+  },
+  {
+    "postId": 3,
+    "name": "Juliana",
+    "urlImg": "",
+    "title": "Tarde",
+    "description": "bonitaaaa"
+  },
+  {
+    "postId": 4,
+    "name": "Juliana",
+    "urlImg": "https://images.pexels.com/photos/17576855/pexels-photo-17576855/free-photo-of-ciudad-puesta-de-sol-punto-de-referencia-luces.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "nj",
+    "description": "bonitaaa"
+  },
+  {
+    "postId": 5,
+    "name": "Nikol",
+    "urlImg": "",
+    "title": "ajdna",
+    "description": "vsvs"
+  },
+  {
+    "postId": 6,
+    "name": "Nikol",
+    "urlImg": "",
+    "title": "mcac",
+    "description": "najd"
+  },
+  {
+    "postId": 7,
+    "name": "Nikol",
+    "urlImg": "",
+    "title": "nscs",
+    "description": "ncks"
+  },
+  {
+    "postId": 8,
+    "name": "Nikol",
+    "urlImg": "",
+    "title": "ded",
+    "description": "de"
   }
 ]
