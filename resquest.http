@@ -1,0 +1,9 @@
+### Petición GET para obtener los datos de los usuarios
+
+GET http://localhost:5051/login-user
+
+###
+GET http://localhost:5051/registro-user
+
+###
+GET http://localhost:5051/create-post

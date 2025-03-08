@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP USER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="screen-principal">
+        <h1>Bienvenido a My ECO Gram</h1>
+        <button id="go-to-registro">Registro</button>
+        <button id="go-to-login">Login</button>
+    </div>
+    <div id="screen-register">
+        <h3>Registrar Usuario</h3>
+
+        <input type="text" placeholder="User Name" id="user-register">
+
+        <input type="text" placeholder="Name" id="name-register">
+
+        <input type="text" placeholder="Url User Image" id="user-img">
+
+        <input type="password" placeholder="Password" id="password-register">
+
+        <button id="register">Registrar</button>
+
+        <p class="go-to-screen-pp">Volver a la pantalla principal</p>
+    </div>
+    <div id="screen-login">
+        <h3>Login</h3>
+
+        <input type="text" placeholder="User Name" id="user-login">
+
+        <input type="password" placeholder="Password" id="password-login">
+
+        <button id="login">Login</button>
+        
+        <p class="go-to-screen-pp">Volver a la pantalla principal</p>
+
+    </div>
+    <div id="screen-create-post">
+        <h3>Crear Post</h3>
+
+        <input type="text" placeholder="Url Image (opcional)" id="image">
+        <input type="text" placeholder="Título" id="title">
+        <input type="text" placeholder="Descripción" id="description">
+
+        <button id="create">Guardar</button>
+
+        <p class="go-to-screen-pp">Volver a la pantalla principal</p>
+    </div>
+   
+    <script src="index.js"></script>     
+</body>
+</html>
