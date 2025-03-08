@@ -5,5 +5,12 @@
     "urlImg": "https://images.pexels.com/photos/2120084/pexels-photo-2120084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "title": "Vistassss",
     "description": "Una mañana"
+  },
+  {
+    "postId": 2,
+    "name": "Nikol",
+    "urlImg": "https://images.pexels.com/photos/556669/pexels-photo-556669.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Una tarde",
+    "description": "Tarde bonisssssssssssss"
   }
 ]

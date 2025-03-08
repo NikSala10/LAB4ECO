@@ -1,3 +1,84 @@
-.go-to-screen-pp {
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#screen-principal {
+    display: block;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+div[id^="screen"] input {
+    width: calc(100% - 24px);  
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    box-sizing: border-box; 
+}
+
+div[id^="screen"] {
+    display: none;
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 8px;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+.go-to-screen-pp {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.go-to-screen-pp:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    div[id^="screen"] {
+        max-width: 350px;
+    }
 }
